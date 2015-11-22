@@ -1,5 +1,5 @@
-## You create a matrix object that can cash its own inverse, 
-## and when solving for the inverse you check for a saved cashe and use that if it exist
+## You create a matrix object that can cashe its own inverse, 
+## and when solving for the inverse you check for the saved cashe and use that if it exist
 
 
 ## creates a list containing a function to
@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Return a matrix that is the inverse of 'x' if already calculated from cashe, else it calculates the inverse using solve()
+## Return a matrix that is the inverse of 'x'; if already calculated from cashe, else it calculates the inverse using solve()
 
 cacheSolve <- function(x, ...) {
         
